@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 10px; /* Added padding at the top */
+    padding-bottom: 10px; /* Added padding at the bottom */
+}
+
+.container {
+    text-align: center;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo {
+    width: 240px; /* Increased size */
+}
+
+.coming-soon {
+    font-size: 1.5em;
+    color: blue;
+    margin-top: 10px;
+}
+
+.agents-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 250px; /* Increased max width */
+    margin: 0 auto;
+}
+
+.agent {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px; /* Increased width */
+    text-align: center;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    line-height: 1.1;
+}
+
+.agent span {
+    display: block;
+    font-size: 0.5em; /* Made text very small */
+}
+
+#agent5, #agent6 {
+    height: 100%; /* Made height equal*/
+}
+
+.agent:hover {
+    background-color: #555;
+}
+
+.agent:active {
+    background-color: #777;
+}
