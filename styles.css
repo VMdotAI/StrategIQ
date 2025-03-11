@@ -21,11 +21,6 @@ body {
     z-index: 1000;
 }
 
-.menu-logo {
-    width: 50px; /* Adjust the size as needed */
-    margin-right: 20px;
-}
-
 .menu-item {
     background-color: #333;
     color: white;
