@@ -16,6 +16,8 @@ body {
     background-color: #222;
     padding: 10px;
     width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .menu-item {
@@ -43,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px; /* Adjusted to account for the menu */
 }
 
 .logo-section {
