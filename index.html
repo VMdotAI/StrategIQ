@@ -26,5 +26,15 @@
         <div class="agents-grid">
         </div>
     </div>
+    <script>
+        window.addEventListener('resize', function() {
+            const menu = document.querySelector('.menu');
+            const logo = document.querySelector('.menu-logo');
+            logo.style.height = `${menu.clientHeight * 0.75}px`;
+        });
+
+        // Initial resize
+        window.dispatchEvent(new Event('resize'));
+    </script>
 </body>
 </html>
