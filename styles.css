@@ -92,3 +92,29 @@ body {
 .agent:active {
     background-color: #777;
 }
+
+.left-align {
+    text-align: left;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Add padding space on each side */
+}
+
+iframe {
+    width: 70%; /* Adjust the width as needed */
+    height: 330px; /* Adjust the height as needed */
+    border: none;
+}
+
+.content {
+    margin-top: 100px; /* Move content lower */
+}
+
+.center-align {
+    text-align: center;
+}
