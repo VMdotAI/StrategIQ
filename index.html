@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="menu">
-        <img src="minilogo.png" alt="StrategiQ Mini Logo" class="menu-logo">
         <button class="menu-item" onclick="location.href='about.html'">About Project</button>
         <span class="menu-text">AI Agents:</span>
         <button class="menu-item" onclick="location.href='market-analyst.html'">Market Analyst</button>
@@ -26,15 +25,5 @@
         <div class="agents-grid">
         </div>
     </div>
-    <script>
-        window.addEventListener('resize', function() {
-            const menu = document.querySelector('.menu');
-            const logo = document.querySelector('.menu-logo');
-            logo.style.height = `${menu.clientHeight * 0.75}px`;
-        });
-
-        // Initial resize
-        window.dispatchEvent(new Event('resize'));
-    </script>
 </body>
 </html>
