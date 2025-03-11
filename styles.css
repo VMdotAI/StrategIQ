@@ -1,63 +1,94 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
-    text-align: center;
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 2em;
-}
-
-#hero {
-    background-color: #fff;
-    text-align: center;
-    padding: 4em 2em;
-}
-
-.agent-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
-}
-
-.agent-grid .agent-card {
-    background-color: #fff;
-    padding: 1em;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.agent-grid .agent-card:hover {
-    transform: translateY(-10px);
-}
-
-footer {
+.menu-item {
     background-color: #333;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #555;
+}
+
+.menu-text {
+    color: white;
+    margin: 0 10px;
+}
+
+.container {
     text-align: center;
-    padding: 1em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px; /* Adjusted to account for the fixed menu */
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo {
+    width: 240px;
+}
+
+.coming-soon {
+    font-size: 1.5em;
+    color: blue;
+    margin-top: 10px;
+}
+
+.agents-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+.agent {
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.agent:hover {
+    background-color: #555;
+}
+
+.agent:active {
+    background-color: #777;
 }
