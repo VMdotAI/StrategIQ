@@ -21,11 +21,6 @@ body {
     z-index: 1000;
 }
 
-.menu-logo {
-    height: 75%; /* Resizes the logo to 75% of the menu bar height */
-    margin-right: 20px;
-}
-
 .menu-item {
     background-color: #333;
     color: white;
