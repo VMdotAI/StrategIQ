@@ -9,9 +9,15 @@
         .left-align {
             text-align: left;
         }
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
         iframe {
             width: 100%;
-            height: auto;
+            height: 600px; /* Adjust the height as needed */
             border: none;
         }
     </style>
@@ -36,7 +42,9 @@
                 <li>Consumer Behavior Insights: Analyzes consumer behavior to predict future market movements.</li>
                 <li>Strategic Recommendations: Offers actionable recommendations based on market data.</li>
             </ul>
-            <iframe src="your-content-url.html"></iframe>
+            <div class="iframe-container">
+                <iframe src="your-content-url.html"></iframe>
+            </div>
         </div>
     </div>
 </body>
