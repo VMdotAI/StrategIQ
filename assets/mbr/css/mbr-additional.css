@@ -21,19 +21,19 @@ body {
 }
 .display-1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
-  line-height: 1;
-}
-.display-1 > .mbr-iconfont {
-  font-size: 4.25rem;
-}
-.display-2 {
-  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   line-height: 1;
 }
+.display-1 > .mbr-iconfont {
+  font-size: 3.25rem;
+}
+.display-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+}
 .display-2 > .mbr-iconfont {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .display-4 {
   font-family: 'Golos Text', sans-serif;
