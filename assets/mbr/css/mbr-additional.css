@@ -21,7 +21,7 @@ body {
 }
 .display-1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 5rem;
+  font-size: 0.7rem;
   line-height: 1;
 }
 .display-1 > .mbr-iconfont {
