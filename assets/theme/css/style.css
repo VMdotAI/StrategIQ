@@ -693,7 +693,7 @@ input[type=range] {
 .navbar-toggler {
   align-self: flex-start;
   padding: 0.25rem 0.75rem;
-  font-size: 0.7rem;
+  font-size: 1rem;
   line-height: 1;
   background: transparent;
   border: 1px solid transparent;
